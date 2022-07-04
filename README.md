@@ -18,5 +18,6 @@ For it to work directory should look like
   - .\nvim\
     - .\lua\
     - init.lua
+  - .\nvim-data\
       
 
