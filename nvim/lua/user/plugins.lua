@@ -41,23 +41,32 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- My plugins here
-  use "wbthomason/packer.nvim"  -- Have packer manage itself
-  use "nvim-lua/popup.nvim"     -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim"   -- Useful lua functions used ny lots of plugins
-  
+  use "wbthomason/packer.nvim"          -- Have packer manage itself
+  use "nvim-lua/popup.nvim"             -- An implementation of the Popup API from vim in Neovim
+  use "nvim-lua/plenary.nvim"           -- Useful lua functions used ny lots of plugins
+ 
   -- Colorschemes
-  use "folke/tokyonight.nvim"   -- Tokyonight colorscheme
+  use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
   
   -- Cmp plugins
-  use "hrsh7th/nvim-cmp"              -- The completion plugin
-  use "hrsh7th/cmp-buffer"            -- Buffer completions
-  use "hrsh7th/cmp-path"              -- Path completions
-  use "hrsh7th/cmp-cmdline"           -- Cmdline completions
-  use "saadparwaiz1/cmp_luasnip"      -- Snipper Completions
+  use "hrsh7th/nvim-cmp"                -- The completion plugin
+  use "hrsh7th/cmp-buffer"              -- Buffer completions
+  use "hrsh7th/cmp-path"                -- Path completions
+  use "hrsh7th/cmp-cmdline"             -- Cmdline completions
+  use "hrsh7th/cmp-nvim-lsp"            
+  use "hrsh7th/cmp-nvim-lua"
+  use "saadparwaiz1/cmp_luasnip"        -- Snipper completions
+  
 
   -- Snippets
-  use "L3MON4D3/LuaSnip"              -- Snippet engine
-  use "rafamadriz/friendly-snippets"  -- Snippet completions
+  use "L3MON4D3/LuaSnip"                -- Snippet engine
+  use "rafamadriz/friendly-snippets"    -- A bunch of snippest to use
+
+  -- LSP
+  use "neovim/nvim-lspconfig"           -- Enable LSP
+  use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
+  use "jose-elias-alvarez/null-ls.nvim" -- Formatters and linters
+  use "RRethy/vim-illuminate"           
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
