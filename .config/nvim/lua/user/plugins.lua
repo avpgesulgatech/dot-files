@@ -36,14 +36,19 @@ packer.init {
       return require("packer.util").float { border = "rounded" }
     end,
   },
+  git = {
+    clone_timeout = 300, -- Timeout Limit, in seconds for git clones
+  },
 }
 
 -- Install your plugins here
 return packer.startup(function(use)
-  -- My plugins here
+  -- Nvim Core Plugins
   use "wbthomason/packer.nvim"          -- Have packer manage itself
   use "nvim-lua/popup.nvim"             -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim"           -- Useful lua functions used ny lots of plugins
+  use "kyazdani42/nvim-web-devicons"    -- Icons used for Nvim plugins
+  use "kyazdani42/nvim-tree.lua"        -- Neovim file tree explorer
   
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
