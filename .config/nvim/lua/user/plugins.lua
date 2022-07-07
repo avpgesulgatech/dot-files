@@ -81,6 +81,9 @@ return packer.startup(function(use)
   use "nvim-treesitter/nvim-treesitter" -- TreeSitter syntax highlighting 
   use "JoosepAlviste/nvim-ts-context-commentstring" -- TreeSitter context comment string
 
+  -- Git 
+  use "lewis6991/gitsigns.nvim"         -- Git signs
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
