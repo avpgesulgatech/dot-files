@@ -49,7 +49,8 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim"           -- Useful lua functions used ny lots of plugins
   use "kyazdani42/nvim-web-devicons"    -- Icons used for Nvim plugins
   use "kyazdani42/nvim-tree.lua"        -- Neovim file tree explorer
-  
+  use "windwp/nvim-autopairs"           -- Autopairs  
+
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
   
