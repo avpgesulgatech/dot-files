@@ -50,6 +50,7 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons"    -- Icons used for Nvim plugins
   use "kyazdani42/nvim-tree.lua"        -- Neovim file tree explorer
   use "windwp/nvim-autopairs"           -- Autopairs  
+  use "numToStr/Comment.nvim"           -- Easy comments
 
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
@@ -78,6 +79,7 @@ return packer.startup(function(use)
 
   -- Treesitter
   use "nvim-treesitter/nvim-treesitter" -- TreeSitter syntax highlighting 
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- TreeSitter context comment string
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
