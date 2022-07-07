@@ -67,6 +67,9 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim" -- Formatters and linters
   use "RRethy/vim-illuminate"           
 
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"   -- Telescope fuzzy finder
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
