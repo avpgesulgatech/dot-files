@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"        -- Neovim file tree explorer
   use "windwp/nvim-autopairs"           -- Autopairs  
   use "numToStr/Comment.nvim"           -- Easy comments
+  use "akinsho/bufferline.nvim"          -- Better buffer UI 
 
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
