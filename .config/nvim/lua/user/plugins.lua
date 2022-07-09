@@ -73,7 +73,7 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig"           -- Enable LSP
   use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
   use "jose-elias-alvarez/null-ls.nvim" -- Formatters and linters
-  use "RRethy/vim-illuminate"           
+  use "RRethy/vim-illuminate"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"   -- Telescope fuzzy finder
