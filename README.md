@@ -52,6 +52,11 @@ Add shell configs on .profile file for bash to initialize
     - lua\
     - init.lua
 ```
+#### Wiki
+Vim Buffer, Windows, Tabs
+Buffer - A buffer is an area of Vim's memory used to hold text read from a file. In addition, an empty buffer with no associated file can be created to allow the entry of text.
+Windows - A window in Vim is a graphical representation of a buffer, i.e. the way that we see the content of a buffer is in a window.
+Tabs - A tab page is a page with one or more windows with a label (aka tab) at the top. 
 
 #### References
 - oh-my-posh terminal and powershell configuration: [Github](https://github.com/craftzdog/dotfiles-public#readme) - [Youtube Guide](https://www.youtube.com/watch?v=5-aK2_WwrmM)
@@ -59,4 +64,3 @@ Add shell configs on .profile file for bash to initialize
 - neovim-basic-ide 100$ Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
 
     
-
