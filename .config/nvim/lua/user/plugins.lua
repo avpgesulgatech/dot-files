@@ -45,28 +45,31 @@ packer.init {
 return packer.startup(function(use)
   -- Nvim Core Plugins
   use "wbthomason/packer.nvim"          -- Have packer manage itself
-  use "nvim-lua/popup.nvim"             -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim"           -- Useful lua functions used ny lots of plugins
+  use "windwp/nvim-autopairs"           -- Autopairs
+  use "numToStr/Comment.nvim"           -- Easy comments
   use "kyazdani42/nvim-web-devicons"    -- Icons used for Nvim plugins
   use "kyazdani42/nvim-tree.lua"        -- Neovim file tree explorer
-  use "windwp/nvim-autopairs"           -- Autopairs  
-  use "numToStr/Comment.nvim"           -- Easy comments
-  use "akinsho/bufferline.nvim"         -- Better buffer UI 
+  use "akinsho/bufferline.nvim"         -- Better buffer UI
   use "nvim-lualine/lualine.nvim"       -- Neovim status line at the bottom
   use "moll/vim-bbye"                   -- Close buffers without messing up window
   use "akinsho/toggleterm.nvim"         -- Multiple terminals in Neovim
+  use "ahmedkhalf/project.nvim"
+  use "lewis6991/impatient.nvim"
+  use "lukas-reineke/indent-blankline.nvim"
+  use "goolord/alpha-nvim"
 
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp"                -- The completion plugin
-  use "hrsh7th/cmp-buffer"              -- Buffer completions
+  use "hrsh7th/cmp-buffer"              -- Buffer completion
   use "hrsh7th/cmp-path"                -- Path completions
+  use "saadparwaiz1/cmp_luasnip"        -- Snipper completions
   use "hrsh7th/cmp-cmdline"             -- Cmdline completions
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
-  use "saadparwaiz1/cmp_luasnip"        -- Snipper completions
 
   -- Snippets
   use "L3MON4D3/LuaSnip"                -- Snippet engine
