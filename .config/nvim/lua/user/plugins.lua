@@ -53,10 +53,12 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim"           -- Easy comments
   use "akinsho/bufferline.nvim"         -- Better buffer UI 
   use "nvim-lualine/lualine.nvim"       -- Neovim status line at the bottom
+  use "moll/vim-bbye"                   -- Close buffers without messing up window
+  use "akinsho/toggleterm.nvim"         -- Multiple terminals in Neovim
 
   -- Colorschemes
   use "folke/tokyonight.nvim"           -- Tokyonight colorscheme
-  
+
   -- Cmp plugins
   use "hrsh7th/nvim-cmp"                -- The completion plugin
   use "hrsh7th/cmp-buffer"              -- Buffer completions
@@ -65,11 +67,11 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
   use "saadparwaiz1/cmp_luasnip"        -- Snipper completions
-  
+
   -- Snippets
   use "L3MON4D3/LuaSnip"                -- Snippet engine
   use "rafamadriz/friendly-snippets"    -- A bunch of snippest to use
-  
+
   -- LSP
   use "neovim/nvim-lspconfig"           -- Enable LSP
   use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
