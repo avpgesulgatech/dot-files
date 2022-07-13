@@ -28,8 +28,8 @@ dapui.setup {
       { id = "breakpoints", size = 0.25 },
     },
     size = 40,
-    position = "right", -- Can be "left", "right", "top", "bottom"
-  },
+    position = "right",
+  }-- Can be "left", "right", "top", "bottom"
 }
 
 vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "DiagnosticSignError", linehl = "", numhl = "" })

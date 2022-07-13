@@ -83,6 +83,7 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"   -- Telescope fuzzy finder
+  use "BurntSushi/ripgrep"              -- Required for live_grep and grep_string
 
   -- Treesitter
   use "nvim-treesitter/nvim-treesitter" -- TreeSitter syntax highlighting 
