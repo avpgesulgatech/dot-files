@@ -62,8 +62,10 @@ Windows - A window in Vim is a graphical representation of a buffer, i.e. the wa
 Tabs - A tab page is a page with one or more windows with a label (aka tab) at the top.   
 
 #### References
-- oh-my-posh terminal and powershell configuration: [Github](https://github.com/craftzdog/dotfiles-public#readme) - [Youtube Guide](https://www.youtube.com/watch?v=5-aK2_WwrmM)
-- neovim-from-scratch series with 100$ Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) - [Youtube Guide](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ&index=1)
-- neovim-basic-ide 100$ Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
+- oh-my-posh terminal and powershell configuration: [Github](https://github.com/craftzdog/dotfiles-public#readme) 
+  - [Tutorial](https://www.youtube.com/watch?v=5-aK2_WwrmM)
+- neovim-from-scratch series with 100$ Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) 
+  - [Tutorial](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
+- neovim-basic-ide 100% Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
 
     
