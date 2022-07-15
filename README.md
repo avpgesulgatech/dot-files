@@ -7,7 +7,10 @@ This repository will contain my preferred IDE configurations.
 
 In order for powershell to read our lua files on initialization we need to setup some files
 
-##### Nvim Config 
+#### Dependencies
+1.) Install command line installer [Scoop](https://scoop.sh/)
+
+#### Nvim Config
 ```
 1. Create a directory on Neovim application config directory
     - mkdir $env:LocalAppData\nvim 
