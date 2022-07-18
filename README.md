@@ -11,6 +11,11 @@ In order for powershell to read our lua files on initialization we need to setup
 #### Dependencies
 1.) Install command line installer [Scoop](https://scoop.sh/)
 
+#### Powershell Plugins
+1.) [PSReadLine](docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)
+2.) [Z.ps](github.com/JannesMeyer/z.ps)
+3.) [PSFzf](https://github.com/kelleyma49/PSFzf)
+
 #### Nvim Config
 ```
 1. Create a directory on Neovim application config directory
