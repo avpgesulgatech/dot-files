@@ -2,22 +2,19 @@
 This repository will contain my preferred IDE configurations.  
 This branch is for the Nightly build of Neovim (0.8)  
 
-### Installation Manual
-
 ### Windows
 
 In order for powershell to read our lua files on initialization we need to setup some files
 
-#### Dependencies
-1. Install command line installer [Scoop](https://scoop.sh/)
-
 #### Powershell Plugins
-1. [PSReadLine](docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)  
-2. [Z.ps](github.com/JannesMeyer/z.ps)  
-3. [PSFzf](https://github.com/kelleyma49/PSFzf) 
-4. [oh-my-posh](https://ohmyposh.dev/docs/installation/windows)  
-5. [Terminal-Icons](https://www.powershellgallery.com/packages/Terminal-Icons/0.9.0)  
-6. [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)  
+1. Install command line installer [Scoop](https://scoop.sh/)
+2. [PSReadLine](docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)  
+3. [Z.ps](github.com/JannesMeyer/z.ps)  
+4. [PSFzf](https://github.com/kelleyma49/PSFzf) 
+5. [oh-my-posh](https://ohmyposh.dev/docs/installation/windows)  
+6. [Terminal-Icons](https://www.powershellgallery.com/packages/Terminal-Icons/0.9.0)  
+7. [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)  
+
 
 #### Nvim Config
 ```
@@ -55,7 +52,7 @@ Create a .config directory at $HOME and put the nvim directory there
 
 ##### Bash Config
 ```
-Add shell configs on .profile file for bash to initialize
+Add shell configs on .profile file for bash to initialize on startup
 ```
 
 ##### Directory Structure
@@ -81,5 +78,5 @@ Tabs - A tab page is a page with one or more windows with a label (aka tab) at t
 - neovim-from-scratch series with 100$ Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) 
   - [Tutorial](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
 - neovim-basic-ide 100% Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
-
+- how to install neovim [Github](https://github.com/neovim/neovim/wiki/Installing-Neovim)
     
