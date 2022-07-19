@@ -9,12 +9,15 @@ This branch is for the Nightly build of Neovim (0.8)
 In order for powershell to read our lua files on initialization we need to setup some files
 
 #### Dependencies
-1.) Install command line installer [Scoop](https://scoop.sh/)
+1. Install command line installer [Scoop](https://scoop.sh/)
 
 #### Powershell Plugins
-1.) [PSReadLine](docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)
-2.) [Z.ps](github.com/JannesMeyer/z.ps)
-3.) [PSFzf](https://github.com/kelleyma49/PSFzf)
+1. [PSReadLine](docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)  
+2. [Z.ps](github.com/JannesMeyer/z.ps)  
+3. [PSFzf](https://github.com/kelleyma49/PSFzf) 
+4. [oh-my-posh](https://ohmyposh.dev/docs/installation/windows)  
+5. [Terminal-Icons](https://www.powershellgallery.com/packages/Terminal-Icons/0.9.0)  
+6. [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)  
 
 #### Nvim Config
 ```
@@ -27,9 +30,11 @@ In order for powershell to read our lua files on initialization we need to setup
 
 ##### Powershell Config 
 ```
-1. Add user_profile.ps1 to $PROFILE file for powershell to initialize config on startup
+1. Create $HOME\.config directory and place the powershell/user_profile.ps1 file 
+2. Place the oh-my-posh json files also on powershel/ directory   
+3. To load on powershell startup add a line on $PROFILE   
     - New-Item $PROFILE
-    - nvim $PROFILE add $env:UserProfile/.config/user_profile.ps1
+    - nvim $PROFILE add ". $env:UserProfile/.config/user_profile.ps1"
 ```
 
 ##### Directory Structure
