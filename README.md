@@ -1,9 +1,9 @@
 # AvpTech Dot File Configurations
 This repository will contain my preferred IDE configurations.
 
-### Windows
+## Windows
 
-In order for powershell to read our lua files on initialization we need to setup some files
+How to install neovim on windows and add useful plugins to powershell
 
 #### Powershell Plugins
 1. Install command line installer [Scoop](https://scoop.sh/)
@@ -15,22 +15,19 @@ In order for powershell to read our lua files on initialization we need to setup
 7. [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)  
 
 
-#### Nvim Config
+#### Neovim Installation and Config
 ```
-1. Create a directory on Neovim application config directory
-    - mkdir $env:LocalAppData\nvim 
-2. Paste lua files on root nvim config directory 
-    - copy-item -path .\lua\* -destination $env:LocalAppData\nvim -recurse
-    - copy-item -path .\init.lua -destination $env:LocalAppData\nvim
+1. [Install Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+1. Paste nvim files on root nvim config directory 
+    - $env:LocalAppData\nvim
 ```
 
 ##### Powershell Config 
 ```
-1. Create $HOME\.config directory and place the powershell/user_profile.ps1 file 
-2. Place the oh-my-posh json files also on powershel/ directory   
-3. To load on powershell startup add a line on $PROFILE   
-    - New-Item $PROFILE
-    - nvim $PROFILE add ". $env:UserProfile/.config/user_profile.ps1"
+1. Create ~\.config folder on $home and place the powershell folder from this repo there    
+2. To load oh-my-posh theme and user_profile.ps1 we need to add a line on $PROFILE   
+    - nvim $profile add ". $env:UserProfile/.config/user_profile.ps1"
+3. Once that is complete powershell should now recognize user_profile.ps1 and the posh theme
 ```
 
 ##### Directory Structure
@@ -42,11 +39,11 @@ In order for powershell to read our lua files on initialization we need to setup
   - .\nvim-data\
 ```
       
-### Linux 
+## Linux 
 
 ##### Nvim Config
 ```
-Create a .config directory at $HOME and put the nvim directory there
+Create a .config directory at ~ and put the nvim directory from this repo there
 ```
 
 ##### Bash Config
@@ -56,8 +53,8 @@ Add shell configs on .profile file for bash to initialize on startup
 
 ##### Directory Structure
 ```
-~\\.profile\
-~\\.config\
+~\.profile\
+~\.config\
   - nvim\
     - lua\
     - init.lua
@@ -77,5 +74,5 @@ Tabs - A tab page is a page with one or more windows with a label (aka tab) at t
 - neovim-from-scratch series with 100$ Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) 
   - [Tutorial](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
 - neovim-basic-ide 100% Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
-- how to install neovim [Github](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
     
