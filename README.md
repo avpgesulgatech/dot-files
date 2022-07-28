@@ -69,7 +69,7 @@ Tabs - A tab page is a page with one or more windows with a label (aka tab) at t
 #### References
 - oh-my-posh terminal and powershell configuration: [Github](https://github.com/craftzdog/dotfiles-public#readme) 
   - [Tutorial](https://www.youtube.com/watch?v=5-aK2_WwrmM)
-- neovim-from-scratch series with 100$ Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) 
+- neovim-from-scratch series with 100% Lua configuration: [Github](https://github.com/LunarVim/Neovim-from-scratch) 
   - [Tutorial](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
 - neovim-basic-ide 100% Lua: [Github](https://github.com/LunarVim/nvim-basic-ide)
 
